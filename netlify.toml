@@ -1,6 +1,6 @@
 [build]
   publish = "kairoslab/public"
-  command = "cd -site1 && hugo --gc --themesDir themes/cupper-hugo-theme"
+  command = "hugo --gc --themesDir themes/cupper-hugo-theme"
 
 [build.environment]
   HUGO_VERSION = "v0.73.0-428907CC windows/amd64"
