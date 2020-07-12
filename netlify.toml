@@ -1,0 +1,9 @@
+[[build]
+  publish = "exampleSite/public"
+  command = "cd exampleSite && hugo --gc --themesDir ../.."
+
+[build.environment]
+  HUGO_VERSION = "v0.73.0"
+  HUGO_THEME = "cupper-hugo-theme"
+  HUGO_BASEURL = "https://themes.gohugo.io//theme/cupper-hugo-theme/"
+  
